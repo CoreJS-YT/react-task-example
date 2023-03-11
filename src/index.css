@@ -1,0 +1,76 @@
+/* 
+:root {
+  --azulOscuro: #080a1b;
+  --azulGrisaceo: #282829;
+  --bg: #00020f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: var(--azulOscuro);
+  padding: 10px 10px;
+  margin: 10px auto 0;
+  width: 300px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.form__title {
+  background-color: var(--azulGrisaceo);
+  border: none;
+  border-radius: 2.5px;
+  height: 20px;
+  padding: 5px 5px;
+}
+.form__title:active {
+  border: none;
+}
+
+.tasklist {
+  background-color: var(--azulOscuro);
+  padding: 10px 10px;
+  margin: 20px auto;
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tasklist__task {
+  background-color: var(--azulGrisaceo);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  width: 280px;
+  height: 150px;
+}
+.tasklist__task__title {
+  color: var(--bg);
+  font-size: 1.35em;
+  font-family: serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.tasklist__task__description {
+  color: var(--azulOscuro);
+  font-size: .96em;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+ */
